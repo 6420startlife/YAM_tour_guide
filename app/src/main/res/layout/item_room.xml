@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_item_room"
+        app:cardCornerRadius="@dimen/corner_item"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@android:color/holo_green_light">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/itemRoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_layout">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                style="@style/bold_text"
+                android:textSize="@dimen/title_room_item"
+                android:id="@+id/tvNameRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white_color"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

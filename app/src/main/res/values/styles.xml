@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="normal_text">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/black_color</item>
+        <item name="android:textSize">@dimen/custom_normal_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="bold_text">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_color</item>
+        <item name="android:textSize">@dimen/big_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

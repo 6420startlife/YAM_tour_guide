@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable-v24/bg_title_error_dialog.xml" value="0.1785" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable-v24/button_bg_cancel_color.xml" value="0.1645" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable-v24/button_bg_color.xml" value="0.1785" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable-v24/layout_bg_dialog.xml" value="0.1785" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable-v24/layout_bg_message_dialog.xml" value="0.1785" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable-v24/layout_bg_title_success_dialog.xml" value="0.1785" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable/bg_text_view_color.xml" value="0.197" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable/button_bg_color.xml" value="0.1645" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable/button_bg_error_color.xml" value="0.1645" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable/button_bg_success_color.xml" value="0.1645" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1765" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/font/sophia.xml" value="0.22402736212056434" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_add.xml" value="0.1931097008159565" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_add_room.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_add_station.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_author.xml" value="0.1500453309156845" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_change_password.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_detail_room.xml" value="0.1931097008159565" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_facebook.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_friends.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_home.xml" value="0.2129115006412997" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_login.xml" value="0.1500453309156845" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_main.xml" value="0.14990942028985507" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_maps.xml" value="0.1931097008159565" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_profile.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_room.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_station.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_tasks.xml" value="0.1931097008159565" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_update_room.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/activity_update_station.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/component_email_input_field.xml" value="0.2" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/component_email_text_field.xml" value="0.1500453309156845" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/component_full_name_text_field.xml" value="0.18177697189483227" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/component_input_text_field.xml" value="0.18177697189483227" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/component_password_text_field.xml" value="0.18177697189483227" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/component_phone_number_text_field.xml" value="0.136" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/dialog_error.xml" value="0.13916591115140525" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/dialog_progress.xml" value="0.2" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/dialog_success.xml" value="0.1" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/dialog_time_picker.xml" value="0.17316409791477788" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/dialog_yes_no.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_add_room.xml" value="0.1931097008159565" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_dashboard.xml" value="0.136" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_login.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_main.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_members.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_notifications.xml" value="0.16364460562103356" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_profile.xml" value="0.1500453309156845" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_register.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_room.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_room2.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_schedule.xml" value="0.1" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_settings.xml" value="0.2" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_station.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/fragment_stopover_station.xml" value="0.1500453309156845" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/item_fiends.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/item_member.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/item_members.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/item_notification.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/item_notifications.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/item_room.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/item_station.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/layout_error_dialog.xml" value="0.264" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/layout_success_dialog.xml" value="0.1500453309156845" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/marker_info_content.xml" value="0.1931097008159565" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/marker_info_contents.xml" value="0.15367180417044424" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/layout/recycler_view_item.xml" value="0.4" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/menu/bottom_nav_menu.xml" value="0.259375" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/menu/menu_navigation.xml" value="0.2129115006412997" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/menu/menu_tab.xml" value="0.2129115006412997" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.127" />
+        <entry key="..\:/Apps Mobile/YAM/app/src/main/res/xml/root_preferences.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

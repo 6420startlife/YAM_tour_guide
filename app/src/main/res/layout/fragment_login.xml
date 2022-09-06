@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="@dimen/elevation"
+        app:cardUseCompatPadding="true"
+        tools:context=".ui.component.author.AuthorActivity">
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layoutLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_layout">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/bold_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_text_size"
+                    android:text="@string/login" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etEmailLoginLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_layout"
+                    android:layout_marginTop="@dimen/margin_layout"
+                    android:layout_marginEnd="@dimen/margin_layout"
+                    app:startIconContentDescription="@string/email"
+                    app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etEmailLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:paddingVertical="@dimen/padding_vertical_text_field" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etPasswordLoginLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_layout"
+                    android:layout_marginTop="@dimen/margin_layout"
+                    android:layout_marginEnd="@dimen/margin_layout"
+                    android:hint="@string/password"
+                    app:endIconMode="password_toggle"
+                    app:startIconContentDescription="@string/password"
+                    app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPasswordLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textPassword"
+                        android:paddingVertical="@dimen/padding_vertical_text_field" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/normal_text"
+                    android:id="@+id/tvForgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_layout"
+                    android:textColor="@color/blue_ribbon_color"
+                    android:text="@string/forgot_password"
+                    android:layout_gravity="end" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:background="@drawable/button_bg_color"
+                    android:textColor="@color/white_color"
+                    android:layout_marginTop="@dimen/margin_layout" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_layout">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/you_don_t_have_any_account"
+                        android:id="@+id/appCompatTextView"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintHorizontal_chainStyle="packed"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/bold_text"
+                        android:textSize="@dimen/custom_normal_text_size"
+                        android:textColor="@color/blue_ribbon_color"
+                        android:id="@+id/tvToRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/register"
+                        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView"
+                        app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
+                        app:layout_constraintEnd_toEndOf="@+id/appCompatTextView" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.cardview.widget.CardView>

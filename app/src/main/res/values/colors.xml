@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_color" >#FF000000</color>
+    <color name="white_color">#FFFFFFfF</color>
+    <color name="default_color">#FAFAFA</color>
+    <color name="blue_color">#2196F3</color>
+    <color name="blue_ribbon_color">#0565fa</color>
+
+    <color name="success_color">#77FD7C</color>
+    <color name="error_color">#E80B0B</color>
+    <color name="red">#E81D0B</color>
+    <color name="disable_color">#AAAAAA</color>
+    <color name="neutral_color">#00DDFF</color>
+    <color name="skin_color">#2AFFD607</color>
+    <color name="warning_color">#FFC107</color>
+</resources>

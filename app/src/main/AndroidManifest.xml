@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.ptithcm.thuan6420.yam">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+            android:name=".util.App"
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/ic_logo"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_logo_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.YAM"
+            tools:targetApi="31">
+        <activity
+                android:name=".ui.component.update.UpdateStationActivity"
+                android:exported="false"
+                android:theme="@style/Theme.YAM.DarkBar"/>
+        <activity
+                android:name=".ui.component.update.UpdateRoomActivity"
+                android:exported="false"
+                android:theme="@style/Theme.YAM.DarkBar"/>
+        <activity
+                android:name=".ui.component.add.AddStationActivity"
+                android:exported="false"
+                android:theme="@style/Theme.YAM.DarkBar"/>
+        <activity
+                android:name=".ui.component.station.StationActivity"
+                android:exported="false"
+                android:theme="@style/Theme.YAM.DarkBar" />
+        <activity
+                android:name=".ui.component.changepassword.ChangePasswordActivity"
+                android:exported="false"
+                android:label="@string/title_activity_change_password"
+                android:theme="@style/Theme.YAM.NoActionBar" />
+        <activity
+                android:name=".ui.component.friends.FriendsActivity"
+                android:exported="false" />
+        <activity
+                android:name=".ui.component.profile.ProfileActivity"
+                android:exported="false" />
+        <activity
+                android:name=".ui.component.tasks.TasksActivity"
+                android:exported="false"
+                android:theme="@style/Theme.YAM.NoActionBar" />
+        <activity
+                android:name=".ui.component.add.AddRoomActivity"
+                android:exported="false"
+                android:theme="@style/Theme.YAM.DarkBar" />
+        <activity
+                android:name=".ui.component.room.RoomActivity"
+                android:exported="false"
+                android:theme="@style/Theme.YAM.DarkBar" />
+
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="${MAPS_API_KEY}" />
+
+        <activity
+                android:name=".ui.component.map.MapsActivity"
+                android:exported="false"
+                android:theme="@style/Theme.YAM.DarkBar" />
+        <activity
+                android:name=".ui.component.author.AuthorActivity"
+                android:exported="false" />
+
+        <activity-alias
+                android:name=".target"
+                android:exported="true"
+                android:targetActivity=".ui.component.author.AuthorActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+                android:name="com.facebook.FacebookActivity"
+                android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" />
+        <activity
+                android:name="com.facebook.CustomTabActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <provider
+                android:name="com.facebook.FacebookContentProvider"
+                android:authorities="com.facebook.app.FacebookContentProvider591318409135906"
+                android:exported="false" />
+        <provider
+                android:name="androidx.startup.InitializationProvider"
+                android:authorities="${applicationId}.androidx-startup"
+                tools:node="remove" />
+
+        <service
+                android:name=".data.service.MessagingService"
+                android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+                android:name=".data.service.AppLocationService"
+                android:foregroundServiceType="location" />
+
+        <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="@string/facebook_app_id" />
+        <meta-data
+                android:name="com.facebook.sdk.ClientToken"
+                android:value="@string/facebook_client_token" />
+    </application>
+
+</manifest>

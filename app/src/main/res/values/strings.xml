@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">YAM</string>
+    <string name="email">Email</string>
+    <string name="error">Error</string>
+    <string name="ok">Ok</string>
+    <string name="success">success</string>
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="register">Register</string>
+    <string name="you_don_t_have_any_account"><![CDATA[You don\'t have any account ? ]]></string>
+    <string name="phone_number">Phone number</string>
+    <string name="full_name">Full Name</string>
+    <string name="address">Address</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="reset">Reset</string>
+    <string name="otp">OTP</string>
+    <string name="send">Send</string>
+
+    <string name="facebook_app_id">591318409135906</string>
+    <string name="fb_login_protocol_scheme">fb591318409135906</string>
+    <string name="facebook_client_token">9b5c52d5bfdd83e6d1a5d2294c712225</string>
+    <string name="addroom">addRoom</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map_id">76d2a072e6920245</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_room">Create room</string>
+    <string name="room_s_name">Room\'s name</string>
+    <string name="add">Add</string>
+    <string name="description">Description</string>
+    <string name="code_join_in">Code join in</string>
+    <string name="get_current_location">Get current location</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="information">Information</string>
+    <string name="station">Station</string>
+    <string name="members">Members</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="code">Code</string>
+    <string name="add_station">Add Station</string>
+    <string name="settings">Settings</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="log_out">Log out</string>
+    <string name="change_password">Change password</string>
+    <string name="friends">Friends</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="date_of_stop">Date of stop</string>
+    <string name="time_stop">Time stop</string>
+    <string name="status">Status</string>
+    <string name="update_room">Update room</string>
+    <string name="update">Update</string>
+    <string name="warning">Warning</string>
+    <string name="accept">Accept</string>
+    <string name="defuse">Defuse</string>
+    <string name="create_statiion">Create statiion</string>
+    <string name="station_s_name">Station\'s name</string>
+    <string name="create_station">Create station</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="update_station">Update station</string>
+    <string name="channel_name">Channel 1</string>
+    <string name="channel_description">Channel 1</string>
+</resources>

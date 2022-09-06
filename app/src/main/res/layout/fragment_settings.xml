@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.component.tasks.TasksActivity">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/picture"
+            android:layout_height="@dimen/picture"
+            android:elevation="2dp"
+            android:layout_marginTop="@dimen/margin_layout"
+            app:cardCornerRadius="@dimen/corner_picture"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/cardView3">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_baseline_person_24"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:id="@+id/ivPicture" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            style="@style/bold_text"
+            android:layout_marginTop="@dimen/margin_layout"
+            app:fontFamily="@font/sofia_regular"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNamePerson"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/margin_layout"
+            app:layout_constraintTop_toBottomOf="@+id/tvNamePerson"
+            android:id="@+id/linearLayoutCompat"
+            app:layout_constraintBottom_toTopOf="@+id/cardView4">
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_item"
+                app:cardCornerRadius="@dimen/corner_item"
+                app:cardUseCompatPadding="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutToProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/normal_text"
+                        android:text="@string/profile"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/margin_property_layout"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="@dimen/icon"
+                        android:layout_height="@dimen/icon"
+                        android:layout_marginEnd="@dimen/margin_layout"
+                        app:srcCompat="@drawable/ic_baseline_navigate_next_24"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_item"
+                app:cardCornerRadius="@dimen/corner_item"
+                app:cardUseCompatPadding="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutToFriends"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/normal_text"
+                        android:text="@string/friends"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/margin_property_layout"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="@dimen/icon"
+                        android:layout_height="@dimen/icon"
+                        android:layout_marginEnd="@dimen/margin_layout"
+                        app:srcCompat="@drawable/ic_baseline_navigate_next_24"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_item"
+                app:cardCornerRadius="@dimen/corner_item"
+                app:cardUseCompatPadding="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutToChangePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/normal_text"
+                        android:text="@string/change_password"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/margin_property_layout"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="@dimen/icon"
+                        android:layout_height="@dimen/icon"
+                        android:layout_marginEnd="@dimen/margin_layout"
+                        app:srcCompat="@drawable/ic_baseline_navigate_next_24"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_item"
+            app:cardCornerRadius="@dimen/corner_item"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/cardView4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutLogout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/normal_text"
+                    android:text="@string/log_out"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/margin_property_layout"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/icon"
+                    android:layout_height="@dimen/icon"
+                    android:layout_marginEnd="@dimen/margin_layout"
+                    app:srcCompat="@drawable/ic_baseline_logout_24"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

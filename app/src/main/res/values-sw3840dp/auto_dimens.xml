@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="activity_horizontal_margin">149.49dp</dimen>
+	<dimen name="activity_vertical_margin">149.49dp</dimen>
+	<dimen name="appbar_padding">149.49dp</dimen>
+	<dimen name="appbar_padding_top">74.74dp</dimen>
+	<dimen name="corner_item">149.49dp</dimen>
+	<dimen name="elevation">149.49dp</dimen>
+	<dimen name="fab_margin">149.49dp</dimen>
+	<dimen name="height_item">934.31dp</dimen>
+	<dimen name="height_item_room">1121.17dp</dimen>
+	<dimen name="icon">448.47dp</dimen>
+	<dimen name="margin_layout">149.49dp</dimen>
+	<dimen name="padding_layout">149.49dp</dimen>
+	<dimen name="padding_vertical_text_field">149.49dp</dimen>
+	<dimen name="big_text_size">224.23sp</dimen>
+	<dimen name="custom_normal_text_size">149.49sp</dimen>
+	<dimen name="small_text_size">74.74sp</dimen>
+	<dimen name="text_title_item_station">93.43sp</dimen>
+	<dimen name="title_text_size">298.98sp</dimen>
+</resources>

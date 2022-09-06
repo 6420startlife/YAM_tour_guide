@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "716355205125",
+    "project_id": "you-and-me---yam",
+    "storage_bucket": "you-and-me---yam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716355205125:android:f7941bf46fc10c11dcc46c",
+        "android_client_info": {
+          "package_name": "com.ptithcm.thuan6420.yam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716355205125-ar428ngrhnutq9gdiv3v91r18sgea88u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFWWL6HrhZZfpryBnzolqeE2de-lOPgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716355205125-ar428ngrhnutq9gdiv3v91r18sgea88u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
